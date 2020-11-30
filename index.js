@@ -63,7 +63,7 @@ app.get('/', (req, res) =>
 
   <script src='https://cdn.jsdelivr.net/gh/phoboslab/jsmpeg@9cf21d3/jsmpeg.min.js'></script>
   <script>
-    new JSMpeg.Player('ws://' + location.host + '/api/stream1', {
+    new JSMpeg.Player('wss://' + location.host + '/api/stream1', {
       canvas: document.getElementById('canvas1')
       
     })
@@ -113,7 +113,7 @@ app.get('/cam2', (req, res) =>
   <script src='https://cdn.jsdelivr.net/gh/phoboslab/jsmpeg@9cf21d3/jsmpeg.min.js'></script>
   <script>
     
-    new JSMpeg.Player('ws://' + location.host + '/api/stream2', {
+    new JSMpeg.Player('wss://' + location.host + '/api/stream2', {
       canvas: document.getElementById('canvas1')
       
     })
