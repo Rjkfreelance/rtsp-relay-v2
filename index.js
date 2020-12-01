@@ -36,7 +36,7 @@ app.get('/', (req, res) =>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>RTSP IP Camera Streaming Example</title>
+  <title>RTSP IP Camera Streaming Cam1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -86,7 +86,7 @@ app.get('/cam2', (req, res) =>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>RTSP IP Camera Streaming Cam1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
