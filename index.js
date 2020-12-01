@@ -13,7 +13,7 @@ const handler1 = proxy({
   });
 
 const handler2 = proxy({
-  url: `rtsp://176.62.177.193/live/ch00_0`,
+  url: `rtsp://195.46.114.132/live/ch00_0`,
   verbose: false,
 })
 
