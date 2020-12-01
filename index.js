@@ -53,9 +53,9 @@ app.get('/', (req, res) =>
   <script>
    $(document).ready(function(){
       $('#canvas1').click(function(){
-            setTimeout(function(){ 
+           // setTimeout(function(){ 
              window.location.href = '/cam2'
-            }, 1000);
+            //}, 1000);
       })
 
    })
@@ -103,9 +103,9 @@ app.get('/cam2', (req, res) =>
   <script>
    $(document).ready(function(){
       $('#canvas1').click(function(){
-            setTimeout(function(){ 
+            //setTimeout(function(){ 
              window.location.href = '/'
-            }, 1000);
+           // }, 1000);
       })
 
    })
